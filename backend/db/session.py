@@ -16,7 +16,7 @@ log = logging.getLogger("cafe-db")
 # ── Database URL ──────────────────────────────────────────────────────────
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "postgresql+psycopg2://postgres:1234@localhost:5432/postgres",
+    
 )
 if not DATABASE_URL:
     log.error("No DATABASE_URL set! Use .env or set environment variable.")
