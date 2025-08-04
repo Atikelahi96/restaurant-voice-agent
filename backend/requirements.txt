@@ -1,0 +1,10 @@
+python-dotenv
+loguru
+google-api-python-client
+fastapi
+uvicorn
+aiohttp
+websockets
+onnxruntime
+google-generativeai
+
